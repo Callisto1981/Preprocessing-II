@@ -1,1 +1,24 @@
 // Navigation Styles here
+
+nav {
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed grey;
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+  a {
+    //position: ;
+    text-decoration: none;
+    color: black;
+  }
+}
